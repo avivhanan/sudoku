@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+/* style the choose lvl page*/
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, red , orange);
+}
+#lvl-select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#board{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.square{
+    display:flex;
+    border:1px solid black;
+    width:50px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+#board-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin: 10px;
+}
+
